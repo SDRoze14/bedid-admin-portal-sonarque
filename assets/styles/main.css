@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,500&display=swap");
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+.gradient {
+  background-image: -webkit-gradient(linear, left top, right top, from(#3794fc), to(#0e64c6));
+  background-image: linear-gradient(to right, #3794fc 0%, #0e64c6 100%);
+}
+
+.gradient-to-bottom {
+  background-image: linear-gradient(346deg, #0e64c6, #3794fc);
+}
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  position: relative;
+  height: 60vh;
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  -webkit-box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+          box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup > * {
+  display: block;
+}
+
+.bg-content {
+  background: #faf9ff;
+}
+
+.translate-x--20 {
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+}
+
+.table-custom {
+  @apply w-full;
+}
+
+.table-custom table {
+  @apply w-full;
+  height: auto;
+}
+
+.table-custom table thead {
+  @apply bg-gray-50;
+  @apply uppercase;
+}
+
+.table-custom table thead > th {
+  @apply font-normal;
+  @apply text-black;
+  @apply px-3;
+  @apply py-3;
+  @apply text-sm;
+  @apply uppercase;
+}
+
+.table-custom tbody tr:hover {
+  @apply bg-gray-50;
+}
+
+.table-custom tbody tr td {
+  @apply py-2;
+  @apply px-3;
+  @apply text-gray-600;
+  @apply text-sm;
+  @apply align-middle;
+  @apply border-b;
+  @apply border-gray-100;
+}
+
+.table-custom tbody tr.tr-disable td {
+  @apply text-gray-400;
+}
+
+.table-custom tbody tr.tr-disable td a {
+  @apply text-gray-400;
+}
+
+/* Table Pueposes */
+.table-custom-purpose {
+  @apply w-full;
+}
+
+.table-custom-purpose table {
+  @apply w-full;
+  height: auto;
+}
+
+.table-custom-purpose table thead {
+  @apply uppercase;
+  @apply text-sm;
+}
+
+.table-custom-purpose table thead > th {
+  @apply font-normal;
+  @apply text-gray-400;
+  @apply px-3;
+  @apply py-3;
+}
+
+.table-custom-purpose tbody tr:hover {
+  @apply bg-gray-50;
+}
+
+.table-custom-purpose tbody tr td {
+  @apply py-4;
+  @apply px-3;
+  @apply text-gray-600;
+  @apply text-base;
+  @apply align-middle;
+  @apply bg-white;
+  @apply rounded-md;
+}
+
+.table-custom-purpose tbody tr.tr-disable td {
+  @apply text-gray-400;
+}
+
+.table-custom-purpose tbody tr.tr-disable td a {
+  @apply text-gray-400;
+}
+
+.vm--modal {
+  border-radius: 0.5rem !important;
+}
+
+.w-max {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.w-72 {
+  width: 20rem;
+}
+
+.disabled-language {
+  @apply bg-gray-50;
+  @apply text-gray-300;
+  @apply cursor-not-allowed;
+  @apply pointer-events-none;
+}
+
+.active-language {
+  @apply bg-blue-100;
+  @apply text-primary;
+}
+
+.v-toast__icon {
+  margin-left: 1.5em !important;
+}
+
+.v-toast__text {
+  text-shadow: 1px 1px #00000022;
+  margin-right: 0.5em !important;
+}
+
+.v-toast__item--success {
+  background-color: #4caf50 !important;
+}
+
+.align-sub {
+  vertical-align: sub;
+}
+
+.max-w-12-rem {
+  max-width: 12rem;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(175, 175, 175);
+  border-radius: 5px;
+}
+
+.divider-right {
+  width: 1px;
+  height: 190px;
+  border: solid 1px #e8f0fb;
+}
+.divider-bottom {
+  width: 100%;
+  height: 1px;
+  border: solid 1px #e8f0fb;
+}
+.text-back {
+  @apply flex py-3 items-center text-sm font-extralight select-none cursor-pointer;
+}
+.btn-reset {
+  top: 65%;
+  transform: translate(-8%, -47%);
+}
+.identity {
+  @apply relative w-16 py-2 border border-gray-300 text-sm text-center rounded;
+}
+/*# sourceMappingURL=main.css.map */
